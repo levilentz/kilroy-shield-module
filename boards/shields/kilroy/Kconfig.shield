@@ -1,0 +1,10 @@
+config SHIELD_KILROY
+    bool
+
+config SHIELD_KILROY_LEFT
+	def_bool $(shields_list_contains,kilroy_left)
+	select SHIELD_KILROY
+
+config SHIELD_KILROY_RIGHT
+	def_bool $(shields_list_contains,kilroy_right)
+	select SHIELD_KILROY
