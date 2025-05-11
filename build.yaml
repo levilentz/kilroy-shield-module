@@ -6,11 +6,11 @@
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
 board: [ "nice_nano_v2" ]
-shield: [ "kilroy_left", "kilrow_right" ]
+shield: [ "kilroy_left", "kilroy_right" ]
 include:
   - board: nice_nano_v2
     shield: kilroy_left
   - board: nice_nano_v2
-    shield: kilrow_right
+    shield: kilroy_right
   - board: nice_nano_v2
     shield: settings_reset
