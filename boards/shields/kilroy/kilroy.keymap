@@ -24,8 +24,8 @@
                          &kp ESC &kp TAB &kp SPACE    &kp BACKSPACE &kp RET &kp GRAVE
             >;
 
-        }
+        };
 
-    }
+    };
 
-}
+};
