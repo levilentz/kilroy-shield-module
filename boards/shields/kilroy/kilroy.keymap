@@ -10,7 +10,7 @@
             label = "tdlayer";
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <175>;
             quick-tap-ms = <100>;
         };
     };
