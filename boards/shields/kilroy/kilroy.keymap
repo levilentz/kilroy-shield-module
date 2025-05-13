@@ -22,7 +22,7 @@
              &kp Q &kp W &kp F &kp P &kp B                                &kp J &kp L &kp U &kp Y &kp SEMI
              &mt LGUI A &mt LALT R &mt LCTL S &mt LSHIFT T &kp G          &kp M &mt LSHIFT N &mt LCTL E &mt LALT I &mt LGUI O
              &kp Z &kp X &kp C &kp D &kp V                                &kp K &kp H &kp COMMA &kp DOT &kp FSLH
-                         &kp ESC &tdlayer 4 TAB &tdlayer 2 SPACE          &kp BACKSPACE &tdlayer 1 RET &kp GRAVE
+                         &kp ESC &tdlayer 3 TAB &tdlayer 2 SPACE          &kp BACKSPACE &tdlayer 1 RET &kp GRAVE
             >;
         };
         nav_layer {
@@ -66,7 +66,7 @@
              &kp Q &kp W &kp E &kp R &kp T                                &kp Y &kp U &kp I &kp O &kp P
              &mt LGUI A &mt LALT S &mt LCTL D &mt LSHIFT F &kp G          &kp H &mt LSHIFT J &mt LCTL K &mt LALT L &mt LGUI SEMI
              &kp Z &kp X &kp C &kp V &kp B                                &kp N &kp M &kp COMMA &kp DOT &kp FSLH
-                         &kp ESC &tdlayer 4 TAB &tdlayer 2 SPACE          &kp BACKSPACE &tdlayer 1 RET &kp GRAVE
+                         &kp ESC &tdlayer 3 TAB &tdlayer 2 SPACE          &kp BACKSPACE &tdlayer 1 RET &kp GRAVE
             >;
         };
 
