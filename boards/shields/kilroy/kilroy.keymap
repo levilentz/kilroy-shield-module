@@ -45,7 +45,7 @@
         default_layer {
             bindings = <
              &kp Q &kp W &kp F &kp P &kp B                                                                                          &kp J &kp L &kp U &kp Y &kp APOS
-             &homerow_mods LGUI A &homerow_mods LALT R &homerow_mods LCTL S &homerow_mods LSHIFT T &kp G          &kp M &homerow_mods LSHIFT N &homerow_mods LCTL E &homerow_mods LALT I &homerow_mods LGUI O
+             &hm LGUI A &hm LALT R &hm LCTL S &hm LSHIFT T &kp G          &kp M &hm LSHIFT N &hm LCTL E &hm LALT I &hm LGUI O
              &kp Z &kp X &kp C &kp D &kp V                                &kp K &kp H &kp COMMA &kp DOT &kp FSLH
                          &kp ESC &tdlayer 3 TAB &tdlayer 2 SPACE          &kp BACKSPACE &tdlayer 1 RET &kp GRAVE
             >;
