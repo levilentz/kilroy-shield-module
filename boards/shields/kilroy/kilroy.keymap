@@ -43,6 +43,7 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
+            display-name = "COLMAK";
             bindings = <
              &kp Q &kp W &kp F &kp P &kp B                                                                                          &kp J &kp L &kp U &kp Y &kp APOS
              &hm LGUI A &hm LALT R &hm LCTL S &hm LSHIFT T &kp G          &kp M &hm LSHIFT N &hm LCTL E &hm LALT I &hm LGUI O
@@ -51,6 +52,7 @@
             >;
         };
         nav_layer {
+            display-name = "NAV";
             bindings = <
        &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO                                   &none  &none  &none  &none  &none   
        &kp CAPSLOCK  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT                                          &none  &kp LEFT_CONTROL  &kp LCTRL  &kp DELETE  
@@ -60,6 +62,7 @@
         };
 
         numbers_layer {
+            display-name = "NUMBERS";
             bindings = <
             &to 4  &to 5  &to 0  &none  &none                                                 &kp LBKT  &kp N7  &kp N8  &kp N9  &kp RBKT 
             &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp DELETE  &none                   &kp SEMI  &kp N4  &kp N5  &kp N6  &kp EQUAL 
@@ -69,6 +72,7 @@
         };
 
         symbol_layer {
+            display-name = "SYMBOLS";
             bindings = <
              &none  &none  &none  &none  &none                                             &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE  
              &none  &kp LGUI  &kp LCTRL  &kp LALT  &kp DELETE                              &kp COLON  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp PLUS  
@@ -78,7 +82,8 @@
         };
 
         bluetooth_layer {
-                bindings = <
+            display-name = "BLUETOOTH";
+            bindings = <
               &to 0  &none  &none  &none  &none                                    &bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &bt BT_CLR_ALL  &none 
               &none  &none  &none  &none  &none                                   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5 
               &none  &none  &none  &none  &none                                   &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &bt BT_DISC 5  
@@ -87,6 +92,7 @@
         };
 
         qwerty_layer {
+            display-name = "QWERTY";
             bindings = <
              &kp Q &kp W &kp E &kp R &kp T                                &kp Y &kp U &kp I &kp O &kp P
              &mt LGUI A &mt LALT S &mt LCTL D &mt LSHIFT F &kp G          &kp H &mt LSHIFT J &mt LCTL K &mt LALT L &mt LGUI SEMI
