@@ -5,7 +5,7 @@ if SHIELD_KILROY_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
-    default "kilroy"
+    default "kilroy keyboard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
